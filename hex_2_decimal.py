@@ -26,7 +26,7 @@ b5 = bit5['bit50'] + bit5['bit51']
 b6 = bit6['bit60'] + bit6['bit61']
 b7 = bit7['bit70'] + bit7['bit71']
 
-# converitng from hex to decimal
+# converting from hex to decimal
 def hex2dec(b):
     b = np.asarray(b).reshape((len(b),1))
     d = np.zeros((len(b),1))
